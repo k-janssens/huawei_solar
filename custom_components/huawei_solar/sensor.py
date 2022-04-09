@@ -50,8 +50,8 @@ ATTR_NB_PV_STRINGS = "nb_pv_strings"
 STATIC_ATTR_LIST = [
     # "model_id",
     "model_name",
-    # ATTR_SERIAL_NUMBER,
-    "rated_power",
+    ATTR_SERIAL_NUMBER,
+    # "rated_power",
     # ATTR_NB_PV_STRINGS,
 ]
 
