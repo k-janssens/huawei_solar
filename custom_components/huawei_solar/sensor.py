@@ -52,12 +52,12 @@ STATIC_ATTR_LIST = [
     "model_name",
     ATTR_SERIAL_NUMBER,
     # "rated_power",
-    # ATTR_NB_PV_STRINGS,
+    ATTR_NB_PV_STRINGS,
 ]
 
 STATIC_ATTR_GRID_LIST = [
-    "grid_standard",
-    "grid_country",
+    # "grid_standard",
+    # "grid_country",
 ]
 
 DYNAMIC_ATTR_LIST = [
@@ -74,14 +74,14 @@ DYNAMIC_ATTR_LIST = [
     "phase_A_voltage",
     "phase_B_voltage",
     "phase_C_voltage",
-    "phase_A_current",
-    "phase_B_current",
-    "phase_C_current",
+    # "phase_A_current",
+    # "phase_B_current",
+    # "phase_C_current",
     "power_meter_active_power",
     "input_power",
-    "grid_A_voltage",
-    "grid_B_voltage",
-    "grid_C_voltage",
+    # "grid_A_voltage",
+    # "grid_B_voltage",
+    # "grid_C_voltage",
     # "active_grid_A_current",
     # "active_grid_B_current",
     # "active_grid_C_current",
