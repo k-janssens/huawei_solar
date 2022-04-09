@@ -28,7 +28,7 @@ from huawei_solar import AsyncHuaweiSolar, ConnectionException, ReadException
 _LOGGER = logging.getLogger(__name__)
 
 
-SCAN_INTERVAL = timedelta(seconds=60)
+SCAN_INTERVAL = timedelta(seconds=30)
 
 # don't overload the poor thing
 DEFAULT_COOLDOWN_INTERVAL = 0.1
@@ -48,11 +48,11 @@ ATTR_NB_PV_STRINGS = "nb_pv_strings"
 
 
 STATIC_ATTR_LIST = [
-    "model_id",
+    # "model_id",
     "model_name",
-    ATTR_SERIAL_NUMBER,
+    # ATTR_SERIAL_NUMBER,
     "rated_power",
-    ATTR_NB_PV_STRINGS,
+    # ATTR_NB_PV_STRINGS,
 ]
 
 STATIC_ATTR_GRID_LIST = [
@@ -62,15 +62,15 @@ STATIC_ATTR_GRID_LIST = [
 
 DYNAMIC_ATTR_LIST = [
     "day_active_power_peak",
-    "reactive_power",
-    "power_factor",
+    # "reactive_power",
+    # "power_factor",
     "efficiency",
-    "grid_frequency",
+    # "grid_frequency",
     "grid_voltage",
     "grid_current",
-    "line_voltage_A_B",
-    "line_voltage_B_C",
-    "line_voltage_C_A",
+    # "line_voltage_A_B",
+    # "line_voltage_B_C",
+    # "line_voltage_C_A",
     "phase_A_voltage",
     "phase_B_voltage",
     "phase_C_voltage",
@@ -82,24 +82,24 @@ DYNAMIC_ATTR_LIST = [
     "grid_A_voltage",
     "grid_B_voltage",
     "grid_C_voltage",
-    "active_grid_A_current",
-    "active_grid_B_current",
-    "active_grid_C_current",
-    "active_grid_power_factor",
-    "active_grid_frequency",
+    # "active_grid_A_current",
+    # "active_grid_B_current",
+    # "active_grid_C_current",
+    # "active_grid_power_factor",
+    # "active_grid_frequency",
     "grid_exported_energy",
     "grid_accumulated_energy",
-    "active_grid_A_B_voltage",
-    "active_grid_B_C_voltage",
-    "active_grid_C_A_voltage",
-    "active_grid_A_power",
-    "active_grid_B_power",
-    "active_grid_C_power",
+    # "active_grid_A_B_voltage",
+    # "active_grid_B_C_voltage",
+    # "active_grid_C_A_voltage",
+    # "active_grid_A_power",
+    # "active_grid_B_power",
+    # "active_grid_C_power",
     "startup_time",
     "shutdown_time",
     "internal_temperature",
     "device_status",
-    "system_time",
+    # "system_time",
 ]
 
 ATTR_DAILY_YIELD = "daily_yield_energy"
@@ -134,17 +134,17 @@ BATTERY_ATTR_LIST = [
     "storage_running_status",
     "storage_current_day_charge_capacity",
     "storage_current_day_discharge_capacity",
-    "storage_working_mode_a",
-    "storage_unit_1_working_mode_b",
-    "storage_time_of_use_price",
-    "storage_lcoe",
+    # "storage_working_mode_a",
+    # "storage_unit_1_working_mode_b",
+    # "storage_time_of_use_price",
+    # "storage_lcoe",
     "storage_maximum_charging_power",
     "storage_maximum_discharging_power",
     "storage_power_limit_grid_tied_point",
     "storage_charging_cutoff_capacity",
     "storage_discharging_cutoff_capacity",
-    "storage_forced_charging_and_discharging_period",
-    "storage_forced_charging_and_discharging_power",
+    # "storage_forced_charging_and_discharging_period",
+    # "storage_forced_charging_and_discharging_power",
     "storage_state_of_capacity",
 ]
 
