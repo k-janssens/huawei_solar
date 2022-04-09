@@ -56,8 +56,8 @@ STATIC_ATTR_LIST = [
 ]
 
 STATIC_ATTR_GRID_LIST = [
-    # "grid_standard",
-    # "grid_country",
+    "grid_standard",
+    "grid_country",
 ]
 
 DYNAMIC_ATTR_LIST = [
