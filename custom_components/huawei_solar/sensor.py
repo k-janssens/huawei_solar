@@ -131,7 +131,7 @@ BATTERY_ENTITY_SENSOR_LIST = [
 
 
 BATTERY_ATTR_LIST = [
-    "storage_running_status",
+    # "storage_running_status",
     "storage_current_day_charge_capacity",
     "storage_current_day_discharge_capacity",
     # "storage_working_mode_a",
@@ -140,7 +140,7 @@ BATTERY_ATTR_LIST = [
     # "storage_lcoe",
     "storage_maximum_charging_power",
     "storage_maximum_discharging_power",
-    "storage_power_limit_grid_tied_point",
+    # "storage_power_limit_grid_tied_point",
     "storage_charging_cutoff_capacity",
     "storage_discharging_cutoff_capacity",
     # "storage_forced_charging_and_discharging_period",
