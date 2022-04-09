@@ -66,8 +66,8 @@ DYNAMIC_ATTR_LIST = [
     # "power_factor",
     "efficiency",
     # "grid_frequency",
-    "grid_voltage",
-    "grid_current",
+    # "grid_voltage",
+    # "grid_current",
     # "line_voltage_A_B",
     # "line_voltage_B_C",
     # "line_voltage_C_A",
@@ -96,9 +96,9 @@ DYNAMIC_ATTR_LIST = [
     # "active_grid_B_power",
     # "active_grid_C_power",
     "startup_time",
-    "shutdown_time",
+    # "shutdown_time",
     "internal_temperature",
-    "device_status",
+    # "device_status",
     # "system_time",
 ]
 
