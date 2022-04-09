@@ -1,6 +1,6 @@
 {
-  "domain": "huawei_solar_v2",
-  "name": "huawei_solar_v2",
+  "domain": "huawei_solar",
+  "name": "huawei_solar",
   "documentation": "https://github.com/k-janssens/huawei_solar",
   "dependencies": [],
   "codeowners": ["k-janssens"],
